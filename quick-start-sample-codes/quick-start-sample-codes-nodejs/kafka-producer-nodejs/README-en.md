@@ -99,20 +99,9 @@ c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:13FC Initialize Start RequestId:
 c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:13load code for handler:index.initialize
 c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:132022-08-08 10:34:13 c47410a0-ada0-45d8-863f-a9343feaa47e [verbose] Servers:  alikafka-pre-cn-7mz2sr1xa00c-1-vpc.alikafka.aliyuncs.com:9092
 c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:132022-08-08 10:34:13 c47410a0-ada0-45d8-863f-a9343feaa47e [verbose] TopicName:  HelloTopic
-c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:132022-08-08 10:34:13 c47410a0-ada0-45d8-863f-a9343feaa47e [verbose] connect ok
 c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:13FC Initialize End RequestId: c47410a0-ada0-45d8-863f-a9343feaa47e
 c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:13FC Invoke Start RequestId: c47410a0-ada0-45d8-863f-a9343feaa47e
 c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:13load code for handler:index.handler
-c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:432022-08-08 10:34:43 1c233449-024d-4a67-8e7f-83fe3bab6bac [verbose] delivery-report err:  null
-c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:432022-08-08 10:34:43 1c233449-024d-4a67-8e7f-83fe3bab6bac [verbose] delivery-report content:  {
-  topic: 'HelloTopic',
-  partition: 0,
-  offset: 16,
-  key: null,
-  timestamp: 1659926083428,
-  value: <Buffer 7b 22 4b 65 79 22 3a 20 22 74 65 73 74 20 6e 6f 64 65 6a 73 31 34 20 6b 61 66 6b 61 20 70 72 6f 64 75 63 65 72 22 7d>,
-  size: 39
-}
 c-62f075a3-58d34b2b8b444083bb972022-08-08 10:34:43FC Invoke End RequestId: 1c233449-024d-4a67-8e7f-83fe3bab6bac
 
 Duration: 10006.53 ms, Billed Duration: 10007 ms, Memory Size: 128 MB, Max Memory Used: 52.28 MB
@@ -148,20 +137,9 @@ End of method: invoke
   c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:13 load code for handler:index.initialize
   c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:132022-08-08 10:32:13 c47410a0-ada0-45d8-863f-a9343fepcaa47e [verbose] Servers: alikafka-pre-cn-1-7mz2srikafkafka0-ada0-45d8-863f-a9343fepcaa47e .aliyuncs.com:9092
   c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:132022-08-08 10:32:13 c47410a0-ada0-45d8-863f-a9343feaa47e [verbose] TopicName: HelloTopic
-  c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:132022-08-08 10:32:13 c47410a0-ada0-45d8-863f-a9343feaa47e [verbose] connect ok
   c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:13FC Initialize End RequestId: c47410a0-ada0-45d8-863f-a9343feaa47e
   c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:13FC Invoke Start RequestId: c47410a0-ada0-45d8-863f-a9343feaa47e
   c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:13 load code for handler:index.handler
-  c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:132022-08-08 10:32:13 c47410a0-ada0-45d8-863f-a9343feaa47e [verbose] delivery-report err: null
-  c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:132022-08-08 10:32:13 c47410a0-ada0-45d8-863f-a9343feaa47e [verbose] delivery-report content: {
-    topic: 'HelloTopic',
-    partition: 8,
-    offset: 19,
-    key: null,
-    timestamp: 1659925933345,
-    value: <Buffer 7b 0a 20 20 20 20 22 6b 65 79 31 22 3a 20 22 4e 6f 64 65 6a 73 31 34 22 2c 0a 20 20 20 20 22 6b 65 79 32 22 3a 20 75 65 32 6 2c 0a 20 20 ... 20 more bytes>,
-    size: 70
-  }
   c-62f075a3-58d34b2b8b444083bb972022-08-08 10:32:13FC Invoke End RequestId: c47410a0-ada0-45d8-863f-a9343feaa47e
   ````
 

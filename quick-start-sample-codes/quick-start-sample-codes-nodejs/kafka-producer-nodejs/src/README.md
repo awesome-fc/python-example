@@ -99,8 +99,6 @@ load code for handler:index.initialize
 FC Initialize End RequestId: 9b230404-4e05-49ca-a3d6-3be4629b367f
 FC Invoke Start RequestId: 3f19de00-ab31-48b4-a386-03cded9f97ee
 load code for handler:index.handler
-2022-07-31 14:30:31 3f19de00-ab31-48b4-a386-03cded9f97ee [verbose] connect ok
-2022-07-31 14:30:36 3f19de00-ab31-48b4-a386-03cded9f97ee [verbose] delivery-report: producer ok
 FC Invoke End RequestId: 3f19de00-ab31-48b4-a386-03cded9f97ee
 ```
 
@@ -149,8 +147,6 @@ load code for handler:index.initialize
 FC Initialize End RequestId: f9f17f0b-62fb-4ffa-853a-67fb316e0bf1
 FC Invoke Start RequestId: f9f17f0b-62fb-4ffa-853a-67fb316e0bf1
 load code for handler:index.handler
-2022-07-31T06:22:37.621Z f9f17f0b-62fb-4ffa-853a-67fb316e0bf1 [verbose] connect ok
-2022-07-31T06:22:37.951Z f9f17f0b-62fb-4ffa-853a-67fb316e0bf1 [verbose] delivery-report: producer ok
 FC Invoke End RequestId: f9f17f0b-62fb-4ffa-853a-67fb316e0bf1
 
 Duration: 10006.34 ms, Billed Duration: 10007 ms, Memory Size: 128 MB, Max Memory Used: 53.24 MB
