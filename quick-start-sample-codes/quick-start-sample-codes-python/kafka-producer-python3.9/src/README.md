@@ -1,4 +1,4 @@
-# Python3 Kafka消息队列生产者示例
+# Python3.9 Kafka消息队列生产者示例
 
 本示例为您展示了 Python 的 [消息队列Kafka](https://help.aliyun.com/document_detail/68151.html?spm=5176.167616.J_5253785160.5.2dfe6feexRPqMj) 生产者示例。（消费者示例见Kafka触发器示例）
 
@@ -53,7 +53,7 @@ zip code.zip -r ./*
  - 选择 `使用标准 Runtime 从零创建`
  - 填入函数名称
  - 代码上传方式选择`通过zip包上传代码`上传相应代码压缩包
- - 选择运行环境Python3.6
+ - 选择运行环境Python3.9
  - 选择函数触发方式：通过事件请求触发
  - 其他设置使用默认
 

@@ -1,4 +1,4 @@
-# kafka-producer-fc-event-python3 帮助文档
+# kafka-producer-fc-event-python3.9 帮助文档
 
 <p align="center" class="flex justify-center">
     <a href="https://www.serverless-devs.com" class="ml-1">
@@ -84,9 +84,9 @@
 - 通过 [Serverless Devs Cli](https://www.serverless-devs.com/serverless-devs/install) 进行部署：
 
   - [安装 Serverless Devs Cli 开发者工具](https://www.serverless-devs.com/serverless-devs/install) ，并进行[授权信息配置](https://www.serverless-devs.com/fc/config) ；
-  - 初始化项目：`s init kafka-producer-fc-event-python3 -d kafka-producer-fc-event-python3`
+  - 初始化项目：`s init kafka-producer-fc-event-python39 -d kafka-producer-fc-event-python39`
   - 填入在以上模块介绍的参数
-  - 进入项目目录，`cd kafka-producer-fc-event-python3`
+  - 进入项目目录，`cd kafka-producer-fc-event-python39`
   - 进行项目部署： `s deploy -y`
 - 本地调试
   - 进入应用项目工程下，执行下面命令：`s invoke -e '{"Key": "test python3 kafka producer"}'`。

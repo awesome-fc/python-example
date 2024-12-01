@@ -1,4 +1,4 @@
-# Python3 Kafka message queue producer example
+# Python3.9 Kafka message queue producer example
 
 This example shows you the Python [Message Queue Kafka](https://help.aliyun.com/document_detail/68151.html?spm=5176.167616.J_5253785160.5.2dfe6feexRPqMj) producer example. (See Kafka Trigger Example for Consumer Example)
 
@@ -53,7 +53,7 @@ When creating a service, select AliyunFcDefaultRole in `Service Role` in `Advanc
  - Select `Create from scratch with standard Runtime`
  - Fill in the function name
  - Select the code upload method `Upload code via zip package` to upload the corresponding code zip package
- - Select the operating environment Python3.6
+ - Select the operating environment Python3.9
  - Select function trigger method: trigger by event request
  - Use default for other settings
 

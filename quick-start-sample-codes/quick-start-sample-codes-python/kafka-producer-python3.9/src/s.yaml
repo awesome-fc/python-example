@@ -40,7 +40,7 @@ services:
       function:
         name: "{{functionName}}"
         description: 'kafka producer by serverless devs'
-        runtime: python3
+        runtime: python3.9
         codeUri: ./code
         handler: index.handler
         memorySize: 128

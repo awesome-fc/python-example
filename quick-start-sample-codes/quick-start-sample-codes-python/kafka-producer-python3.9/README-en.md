@@ -1,4 +1,4 @@
-# kafka-producer-fc-event-python3 help documentation
+# kafka-producer-fc-event-python3.9 help documentation
 
 <p align="center" class="flex justify-center">
     <a href="https://www.serverless-devs.com" class="ml-1">
@@ -85,9 +85,9 @@ Using this item, verify that your operational account has the following product 
 - Deploy via [Serverless Devs Cli](https://www.serverless-devs.com/serverless-devs/install):
 
   - [Install Serverless Devs Cli Developer Tools](https://www.serverless-devs.com/serverless-devs/install), and perform [Authorization Information Configuration](https://www.serverless-devs.com/ fc/config);
-  - Initialize the project: `s init kafka-producer-fc-event-python3 -d kafka-producer-fc-event-python3`
+  - Initialize the project: `s init kafka-producer-fc-event-python39 -d kafka-producer-fc-event-python39`
   - Fill in the parameters described in the above modules
-  - Go to the project directory, `cd kafka-producer-fc-event-python3`
+  - Go to the project directory, `cd kafka-producer-fc-event-python39`
   - Do project deployment: `s deploy -y`
 - local debugging
   - Enter the application project project and execute the following command: `s invoke -e '{"Key": "test python3 kafka producer"}'`.
